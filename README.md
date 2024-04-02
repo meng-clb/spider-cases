@@ -75,7 +75,12 @@
 > 1. 混淆代码进行还原
 > 2. 数据进行解密  **DES**
 
+**[问财](https://www.iwencai.com/unifiedwap/result?w=%E6%B6%A8%E8%B7%8C%E5%B9%85%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E0%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E5%25%EF%BC%8C&querytype=fund&addSign=1712064372700)**
 
+> 实现功能:
+> 1. 逆向请求头参数Hexin-V
+> 2. 参数是cookie中获取到
+> 3. hook cookie拿到参数的生成
 
  
 
