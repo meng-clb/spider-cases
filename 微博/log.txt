@@ -1,0 +1,97 @@
+error====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'mblog'
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'mblog'
+写入错误 => 'NoneType' object is not subscriptable => Noneparams====> list index out of range
+error====> local variable 'params' referenced before assignment
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> 'status_city'
+写入错误 => 'NoneType' object is not subscriptable => Noneerror====> list index out of range
+写入错误 => 'NoneType' object is not subscriptable => None
