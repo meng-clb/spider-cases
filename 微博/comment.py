@@ -20,44 +20,59 @@ headers = {
 params = {
 	'id': '5019491971632145',
 	'mid': '5019491971632145',
-	'max_id': '0',  # 在返回的信息中保存有
 	'max_id_type': 0
 }
 
-res = requests.get(url, headers=headers, params=params)
-data = res.json()
-i = 0
-data_list = data['data']['data']
-for data in data_list:
-	# TODO 一级评论
-	# print('==========一级评论=========')
-	i += 1
-	time.sleep(0.3)
-	created_at = data['created_at']  # 发布时间
-	text = data['text']  # 评论内容
-	source = data['source']  # 用户ip
-	user = data['user']
-	id = user['id']  # 用户id
-	uname = user['screen_name']  # name
-	profile_url = user['profile_url']  # 用户主页
-	# print(created_at, text, source, id, uname, profile_url)
-	print(f'=======>开始抓取第{i}条评论')
-	with open('comment.csv', 'a', encoding='utf-8')as f:
-		f.write(f'{uname} {id} {created_at} {source} {profile_url} \n{text}\n')
-	# TODO 二级评论
-	# print('==========二级评论=========')
-	try:
-		comment_list = data['comments']
-		for comment in comment_list:
-			created_at = comment['created_at']  # 发布时间
-			text = comment['text']  # 评论内容
-			source = comment['source']  # 用户ip
-			user = comment['user']
-			id = user['id']  # 用户id
-			uname = user['screen_name']  # name
-			profile_url = user['profile_url']  # 用户主页
-			# print(created_at, text, source, id, uname, profile_url)
-			with open('comment.csv', 'a', encoding='utf-8') as f:
-				f.write(f'{uname} {id} {created_at} {source} {profile_url} \n{text}\n')
-	except Exception as e:
-		print(e)
+max_id_list = []
+
+
+def get_comment(data):
+	i = 0
+	data_list = data['data']['data']
+	for data in data_list:
+		# TODO 一级评论
+		# print('==========一级评论=========')
+		i += 1
+		time.sleep(0.3)
+		max_id = data['max_id']
+		if max_id != 0:
+			max_id_list.append(max_id)
+		created_at = data['created_at']  # 发布时间
+		text = data['text']  # 评论内容
+		source = data['source']  # 用户ip
+		user = data['user']
+		id = user['id']  # 用户id
+		uname = user['screen_name']  # name
+		profile_url = user['profile_url']  # 用户主页
+		# print(created_at, text, source, id, uname, profile_url)
+		# print(f'=======>开始抓取第{i}条评论')
+		with open('comment.csv', 'a', encoding='utf-8') as f:
+			f.write(f'{uname} {id} {created_at} {source} {profile_url} \n{text}\n')
+		# TODO 二级评论
+		# print('==========二级评论=========')
+		try:
+			comment_list = data['comments']
+			for comment in comment_list:
+				created_at = comment['created_at']  # 发布时间
+				text = comment['text']  # 评论内容
+				source = comment['source']  # 用户ip
+				user = comment['user']
+				id = user['id']  # 用户id
+				uname = user['screen_name']  # name
+				profile_url = user['profile_url']  # 用户主页
+				# print(created_at, text, source, id, uname, profile_url)
+				with open('comment.csv', 'a', encoding='utf-8') as f:
+					f.write(f'{uname} {id} {created_at} {source} {profile_url} \n{text}\n')
+		except Exception as e:
+			print(e)
+		if i == 20:
+			return max_id_list
+
+
+for i in range(1, 3):
+	print(f'开始抓取第{i}页数据')
+	res = requests.get(url, headers=headers, params=params)
+	data = res.json()
+	max_id_list = get_comment(data)
+	# print('max_id==>', max_id_list[-1])
+	params['max_id'] = max_id_list[-1]
