@@ -117,6 +117,10 @@
 > 2. 获取到返回的数据 
 
 
+**[CBA](https://data-server.cbaleague.com/api/team-match-datas/team-entirety-list)**
+> 实现功能:
+> 1. 对返回的数据做解密处理
+
 
 
 **声明: 此项目由本人学习存储代码使用, 所有代码均用于学习, 如果你获取了源码, 请在24小时内从你的计算机删除, 请勿用于非法用途.**
