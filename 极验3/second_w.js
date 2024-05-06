@@ -181,7 +181,7 @@ var second_w = function(gt, challenge, cc, ss, aeskey) {
                 '$_FFG': {
                     'pt': 0,
                 },
-                'aeskey': 'b0ef1b587b2c5163',
+                'aeskey': aeskey,
                 'theme': 'wind',
                 'theme_version': '1.5.8',
                 'logo': true,

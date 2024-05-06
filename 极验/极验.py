@@ -128,7 +128,7 @@ third_params['callback'] = f'geetest_{get_now()}'
 
 second_ajax_url = 'https://api.geetest.com/ajax.php'
 # session.headers['Referer'] = 'https://www.geetest.com/'
-second_ajax_resp = session.get(second_ajax_url, params=third_params)
+second_ajax_resp = session.get(second_ajax_url, params=third_params, verify=False)
 
 print(third_params)
 print(second_ajax_resp.text)

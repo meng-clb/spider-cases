@@ -12,7 +12,8 @@ with open('请求头.js', 'r', encoding='utf-8') as f:
 
 context = execjs.compile(js_code)
 
-url = 'https://mhapi.yiche.com/hcar/h_car/api/v1/param/get_param_details?cid=508&param=%7B%22cityId%22%3A%221004%22%2C%22serialId%22%3A%221661%22%7D'
+url = 'https://mhapi.yiche.com/hcar/h_car/api/v1/param/get_param_details?cid=508&param=%7B' \
+      '%22cityId%22%3A%221004%22%2C%22serialId%22%3A%221661%22%7D'
 cookie = "CIGUID=f5c1d33c1f0134b77967b272e1a83bea; isWebP=true; locatecity=411500; "
 "auto_id=424c017777b43b4880682591fa8930a7; "
 "UserGuid=f5c1d33c1f0134b77967b272e1a83bea; "
@@ -42,7 +43,7 @@ headers = {
 	"X-Ip-Address": "125.45.144.25",
 	"X-Platform": "pc",
 	"X-Sign": str(data['X-Sign']),
-	"X-Timestamp":  str(data['X-Timestamp']),  # str(data['X-Timestamp'])
+	"X-Timestamp": str(data['X-Timestamp']),  # str(data['X-Timestamp'])
 	"X-User-Guid": data['X-User-Guid']
 }
 res = requests.get(url, headers=headers)
