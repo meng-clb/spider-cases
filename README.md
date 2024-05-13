@@ -1,7 +1,8 @@
 ## 逆向案例
+
 **[网易云音乐](https://music.163.com/)**
 > 实现功能：
-> 1. 逆向请求参数   **(AES|RSA)** 
+> 1. 逆向请求参数   **(AES|RSA)**
 > 2. 实现下载歌曲链接的获取
 > 3. 获取歌曲的评论
 
@@ -11,7 +12,7 @@
 > 2. 获取页面数据
 
 **[建设库](https://www.jiansheku.com/search/expired/?page=5)**
-> 实现功能: 
+> 实现功能:
 > 1. 请求头参数逆向  **md5**
 > 2. 获取页面数据集
 
@@ -26,7 +27,7 @@
 > (4) 第四次, 正式登陆
 
 **[莫莫铺子](http://mmpz.ttzhuijuba.com/?r=/l&cids=9&site=classify&sort=0)**
-> 实现功能: 
+> 实现功能:
 > 1. 获取页面商品数据
 > 2. 逆向请求参数sign值  **md5加密**
 
@@ -41,7 +42,7 @@
 > 2. 逆向账号密码加密  **rsa加密, 使用同一个key**
 
 **[币数据](https://www.mytokencap.com/)**
-> 实现功能: 
+> 实现功能:
 > 1. 逆向请求参数, 获取到页面数据 **md5**
 
 
@@ -50,9 +51,11 @@
 > 1. 模拟登陆
 > 2. 逆向请求头Signature参数 **AES,MD5**
 
-**[看准网](https://www.kanzhun.com/search?cityCode=34&industryCodes=52&pageNum=1&query=%E6%93%8D%E4%BD%9C%E5%91%98&type=4)**
+*
+*[看准网](https://www.kanzhun.com/search?cityCode=34&industryCodes=52&pageNum=1&query=%E6%93%8D%E4%BD%9C%E5%91%98&type=4)
+**
 
-> 实现功能: 
+> 实现功能:
 > 1. 请求参数的加密逆向 AES加密
 > 2. 返回的加密值进行解密 AES
 
@@ -75,14 +78,16 @@
 > 1. 混淆代码进行还原
 > 2. 数据进行解密  **DES**
 
-**[问财](https://www.iwencai.com/unifiedwap/result?w=%E6%B6%A8%E8%B7%8C%E5%B9%85%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E0%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E5%25%EF%BC%8C&querytype=fund&addSign=1712064372700)**
+*
+*[问财](https://www.iwencai.com/unifiedwap/result?w=%E6%B6%A8%E8%B7%8C%E5%B9%85%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E0%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E5%25%EF%BC%8C&querytype=fund&addSign=1712064372700)
+**
 
 > 实现功能:
 > 1. 逆向请求头参数Hexin-V
 > 2. 参数是cookie中获取到
 > 3. hook cookie拿到参数的生成
 
- **[微博](https://m.weibo.cn/)**
+**[微博](https://m.weibo.cn/)**
 > 实现功能:
 > 1. 热搜榜单获取所有的链接(部分完成)
 > 2. 通过链接拿到所有评论(完成, 未测试极限能拿多少)
@@ -114,7 +119,7 @@
 **[七麦数据](https://www.qimai.cn/)**
 > 实现功能:
 > 1. 对请求参数进行逆向
-> 2. 获取到返回的数据 
+> 2. 获取到返回的数据
 
 
 **[CBA](https://data-server.cbaleague.com/api/team-match-datas/team-entirety-list)**
@@ -138,12 +143,15 @@ hook页面的cookie, cookie过期很快, hook之后通过调用栈找到入口, 
 有一个参数需要单独处理, 时间戳.
 ```
 
-
-
 **[懂车帝](https://www.dongchedi.com/)**
 > 实现功能:
 > 1. 字体反爬处理
 > 2. 获取二手车数据
 
 
-**声明: 此项目由本人学习存储代码使用, 所有代码均用于学习, 如果你获取了源码, 请在24小时内从你的计算机删除, 请勿用于非法用途.**
+**[小程序-boss直聘]()**
+> 实现功能(测试阶段):
+> 1. 获取招聘数据信息
+
+**声明: 此项目由本人学习存储代码使用, 所有代码均用于学习, 如果你获取了源码, 请在24小时内从你的计算机删除, 请勿用于非法用途.
+**

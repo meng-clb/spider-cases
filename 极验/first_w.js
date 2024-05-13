@@ -138,7 +138,7 @@ var quanju = {
         },
     },
     '$_EID': {
-        'aeskey': undefined,
+        'aeskey': 'b0fc6631a5c99d0b',
     },
 };
 
@@ -269,7 +269,7 @@ function get_first_w(gt, challenge) {
     };
 }
 
-// get_first_w();
+get_first_w();
 
 // console.log($_CCHU());
 // console.log(quanju['$_EID']['aeskey']);
