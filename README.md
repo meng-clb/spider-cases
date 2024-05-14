@@ -152,6 +152,16 @@ hook页面的cookie, cookie过期很快, hook之后通过调用栈找到入口, 
 使用这个cookie进行数据的获取.
 ````
 
+
+**[第一题](https://match.yuanrenxue.cn/match/1)**
+````markdown
+思路:
+先过debugger, 直接让setInterval置空, 会检测setInterval函数, 对toString做伪装.
+
+然后发现请求参数加密, 使用xhr断点, 断api接口, 发现是简单的混淆.
+直接扣代码, 解除混淆, 拿到加密参数m的值.
+````
+
 **[懂车帝](https://www.dongchedi.com/)**
 > 实现功能:
 > 1. 字体反爬处理
