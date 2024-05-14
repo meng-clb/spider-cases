@@ -52,6 +52,7 @@
 > 2. 逆向请求头Signature参数 **AES,MD5**
 
 *
+
 *[看准网](https://www.kanzhun.com/search?cityCode=34&industryCodes=52&pageNum=1&query=%E6%93%8D%E4%BD%9C%E5%91%98&type=4)
 **
 
@@ -79,6 +80,7 @@
 > 2. 数据进行解密  **DES**
 
 *
+
 *[问财](https://www.iwencai.com/unifiedwap/result?w=%E6%B6%A8%E8%B7%8C%E5%B9%85%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E0%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E5%25%EF%BC%8C&querytype=fund&addSign=1712064372700)
 **
 
@@ -142,6 +144,13 @@ hook页面的cookie, cookie过期很快, hook之后通过调用栈找到入口, 
 网站是ob混淆, 按照顺序扣就可以了.
 有一个参数需要单独处理, 时间戳.
 ```
+**[第十三题](https://match.yuanrenxue.cn/match/13)**
+````markdown
+思路:
+第一次请求页面, 会返回一个script标签, 里边的内容就是cookie, 使用re拿到cookie.
+
+使用这个cookie进行数据的获取.
+````
 
 **[懂车帝](https://www.dongchedi.com/)**
 > 实现功能:
@@ -149,9 +158,6 @@ hook页面的cookie, cookie过期很快, hook之后通过调用栈找到入口, 
 > 2. 获取二手车数据
 
 
-**[小程序-boss直聘]()**
-> 实现功能(测试阶段):
-> 1. 获取招聘数据信息
 
 **声明: 此项目由本人学习存储代码使用, 所有代码均用于学习, 如果你获取了源码, 请在24小时内从你的计算机删除, 请勿用于非法用途.
 **
