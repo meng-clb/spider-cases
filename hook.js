@@ -3,3 +3,9 @@ Object.defineProperty(document, 'cookie', {
         debugger;
     }
 })
+
+Object.defineProperty(window, '_$ss', {
+    set(val){
+        debugger;
+    }
+})
