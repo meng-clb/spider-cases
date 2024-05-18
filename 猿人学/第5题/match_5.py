@@ -18,17 +18,16 @@ headers = {
 	'X-Requested-With':'XMLHttpRequest'
 }
 session.headers = headers
-session.cookies['sessionid'] = 'ar3ego7x9t7rgon4rdupvui57zheocko'
+session.cookies['sessionid'] = 'qgv5uk9bfsoxv71ez1qhw2ohm2ge7m0z'
 cookie = js_code.call('get_cookie')
-# session.cookies['m'] = cookie
-session.cookies['tk'] = '-8733569097663512141'
+session.cookies['RM4hZBv0dDon443M'] = cookie
+m = js_code.call('get_m')
+# session.cookies['m'] = m
 params = js_code.call('get_params')
 api_url = 'https://match.yuanrenxue.cn/api/match/5'
+print(headers)
 
 for page in range(1, 6):
 	params['page'] = page
-	print(params)
-
 	resp = session.get(api_url)
-	print(resp.request.headers)
 	print(resp.json())
