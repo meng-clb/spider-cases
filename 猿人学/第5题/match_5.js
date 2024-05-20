@@ -8,7 +8,10 @@ window = {
 };
 _0x4e96b4 = window;
 _0x3d0f3f = document;
-
+data = {
+    params: {},
+    cookie: '',
+};
 
 function _0x2b8a17(_0x36f847) {
     return unescape(encodeURIComponent(_0x36f847));
@@ -204,17 +207,21 @@ function _0x474032(_0x233f82, _0xe2ed33, _0x3229f9) {
 }
 
 function _0x12eaf3() {
-    return Date['parse'](new Date() + 1000);
+    return Date['parse'](new Date());
 }
 
 // ================= 前4个pr ===============
-_$Wa = _0x12eaf3();
 
+var f;
 for (let i = 0; i < 4; i++) {
+    _$Wa = _0x12eaf3() + i * 1000;
+    f = _$Wa;
     _0x3d0f3f['cookie'] = 'm=' + _0x474032(_$Wa) + ';\x20path=/';
     _0x4e96b4['_$pr']['push'](_0x474032(_$Wa));
 }
+
 //=======================
+
 
 // ================== 最后一个pr =================
 function _0x2d5f5b() {
@@ -222,18 +229,32 @@ function _0x2d5f5b() {
 }
 
 _$yw = _0x2d5f5b()['toString']();  // TODO 这个是参数的m值
-var f = Date.parse(new Date());
-console.log(f);
+data['params']['m'] = _$yw;
 _0x3d0f3f['cookie'] = 'm=' + _0x474032(_$yw) + ';\x20path=/';
 _0x4e96b4['_$is'] = _$yw;
 _0x4e96b4['_$pr']['push'](_0x474032(_$yw));
 // ============================
 
-console.log(window['_$pr']);
+// ======================
+function btoa(str) {
+    return Buffer.from(str).toString('base64');
+}
+
+_0x4e96b4['_$qF'] = CryptoJS['enc']['Utf8']['parse'](btoa(_0x4e96b4['_$is'])['slice'](0x0, 0x10));
+// ======================
+
 _$Ww = CryptoJS['enc']['Utf8']['parse'](_0x4e96b4['_$pr']['toString']()),
-    _0x29dd83 = CryptoJS['AES']['encrypt'](_$Ww, _0x4e96b4[_0xc77418('0x6', 'OCbs')], {
+    _0x29dd83 = CryptoJS['AES']['encrypt'](_$Ww, _0x4e96b4['_$qF'], {
         'mode': CryptoJS['mode']['ECB'],
         'padding': CryptoJS['pad']['Pkcs7'],
     });
 cookie = _0x29dd83['toString']();
-console.log(cookie);
+data['cookie'] = cookie;
+data['params']['f'] = f;
+// console.log(data);
+
+function get_data() {
+    return data;
+}
+
+// console.log(get_data());
