@@ -1,11 +1,17 @@
 const CryptoJS = require('crypto-js');
 document = {};
 window = {
-    _$pr: [],
-    _$6_: 8821003647,
-    _$tT: -172015004,
-    _$Jy: 461512024,
+    _$pr: [
+        '70df5762383115c2e34d32b38047e49e',
+        '8b398e9dfd4566582fea051899c7a973',
+        '03777b2c7186f79e6b723431cf304bf9',
+        '148d41beb1ff852d854118286384fe42',
+    ],
+    _$6_: -389564586,
+    _$tT: -660478335,
+    _$Jy: -405537848,
 };
+
 _0x4e96b4 = window;
 _0x3d0f3f = document;
 data = {
@@ -90,14 +96,7 @@ function _0x11a7a2(_0x193f00, _0x1cfe89) {
     }
     var _0x1badc3, _0x38ca59, _0x431764, _0x43f1b4, _0x5722c0, _0x3e0c38 = _0x1171c8, _0xdb4d2c = _0x4dae05,
         _0x1724c5 = _0x183a1d, _0x257ec6 = _0xcfa373;
-    try {
-        if (_0x4e96b4['_$6_']) {
-        } else {
-            _0x4e96b4['_$6_'] = 0x20dc5d57f;
-        }
-    } catch (_0x15bf3f) {
-        _0x4e96b4['_$6_'] = 0x2421603;
-    }
+
     for (_0x1badc3 = 0x0; _0x1badc3 < _0x193f00['length']; _0x1badc3 += _0x42fb36)
         _0x38ca59 = _0x3e0c38,
             _0x431764 = _0xdb4d2c,
@@ -213,12 +212,16 @@ function _0x12eaf3() {
 // ================= 前4个pr ===============
 
 var f;
-for (let i = 0; i < 4; i++) {
-    _$Wa = _0x12eaf3() + i * 1000;
+// for (let i = 0; i < 4; i++) {
+//     _$Wa = _0x12eaf3() + i * 1000;
+//     f = _$Wa;
+//     console.log(typeof _$Wa);
+//     _0x3d0f3f['cookie'] = 'm=' + _0x474032(_$Wa) + ';\x20path=/';
+//     _0x4e96b4['_$pr']['push'](_0x474032(_$Wa));
+// }
+
+ _$Wa = _0x12eaf3();
     f = _$Wa;
-    _0x3d0f3f['cookie'] = 'm=' + _0x474032(_$Wa) + ';\x20path=/';
-    _0x4e96b4['_$pr']['push'](_0x474032(_$Wa));
-}
 
 //=======================
 
@@ -229,10 +232,15 @@ function _0x2d5f5b() {
 }
 
 _$yw = _0x2d5f5b()['toString']();  // TODO 这个是参数的m值
+console.log(typeof _$yw);
+
+// TODO 这里只验证数组的最后一个值, 固定前4个值, 最后一个值是一个时间戳加密
 data['params']['m'] = _$yw;
 _0x3d0f3f['cookie'] = 'm=' + _0x474032(_$yw) + ';\x20path=/';
 _0x4e96b4['_$is'] = _$yw;
 _0x4e96b4['_$pr']['push'](_0x474032(_$yw));
+console.log(_0x4e96b4['_$pr']);
+
 // ============================
 
 // ======================
@@ -251,6 +259,7 @@ _$Ww = CryptoJS['enc']['Utf8']['parse'](_0x4e96b4['_$pr']['toString']()),
 cookie = _0x29dd83['toString']();
 data['cookie'] = cookie;
 data['params']['f'] = f;
+
 // console.log(data);
 
 function get_data() {
