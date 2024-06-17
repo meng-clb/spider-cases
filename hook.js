@@ -22,3 +22,5 @@ Object.defineProperty(window, '_$ss', {
         return Function.prototype.constructor_(val);
     };
 })();
+
+setInterval = function(){}

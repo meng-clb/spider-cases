@@ -79,10 +79,9 @@
 > 1. 混淆代码进行还原
 > 2. 数据进行解密  **DES**
 
-*
 
-*[问财](https://www.iwencai.com/unifiedwap/result?w=%E6%B6%A8%E8%B7%8C%E5%B9%85%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E0%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E5%25%EF%BC%8C&querytype=fund&addSign=1712064372700)
-**
+
+**[问财](https://www.iwencai.com/unifiedwap/result?w=%E6%B6%A8%E8%B7%8C%E5%B9%85%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E0%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8E5%25%EF%BC%8C&querytype=fund&addSign=1712064372700)**
 
 > 实现功能:
 > 1. 逆向请求头参数Hexin-V
@@ -144,7 +143,9 @@ hook页面的cookie, cookie过期很快, hook之后通过调用栈找到入口, 
 网站是ob混淆, 按照顺序扣就可以了.
 有一个参数需要单独处理, 时间戳.
 ```
+
 **[第十三题](https://match.yuanrenxue.cn/match/13)**
+
 ````markdown
 思路:
 第一次请求页面, 会返回一个script标签, 里边的内容就是cookie, 使用re拿到cookie.
@@ -152,8 +153,8 @@ hook页面的cookie, cookie过期很快, hook之后通过调用栈找到入口, 
 使用这个cookie进行数据的获取.
 ````
 
-
 **[第一题](https://match.yuanrenxue.cn/match/1)**
+
 ````markdown
 思路:
 先过debugger, 直接让setInterval置空, 会检测setInterval函数, 对toString做伪装.
