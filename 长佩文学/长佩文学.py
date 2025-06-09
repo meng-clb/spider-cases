@@ -18,7 +18,14 @@ headers = {
 	"Content-Type": "application/json",
 	"Client": "pc",
 	"Connection": "keep-alive",
+<<<<<<< HEAD
 	"Cookie": "EADjKmnKUxHmIAcmpAHWE0MmEcDKvc-YnxSTUJgXOTeFGc-hUtlSh71S6cBKAQ9YZbP9F52qNDxijfe7dffUhyznd6cyLC1uSlp1aWHtE5Yrx-2Utf6t1q3ZppctMYhfrMv8t7cwCptljsy_iJlspumaaAMAB8hZrMJA6-1m1J3PbJXt_9ks9wLfKOwzifObqlcqw_56pC44DxACUdHusUo3nJc4Umv-rYAMOom3dYp83aU-YajNaU4DGWSHxpOpe-7WPHxHdYp83aU8xHvBBLeVPUO."
+=======
+	"Cookie": "_c_n_=ac7cf163c51cbd7bfc576ef45d41dc0a; PHPSESSID=n8uvpsogdo84vkhblnsi8pbe2o; "
+	          "tfstk=fkCZByqXL5FN9ZXDYHO2YrR2ytA9gQE5mstXoZbD5hxG5ZmV0MS-lNZ9G9-VxM"
+	          "-MlPe9u68WSVYDSnDhLGQkCI1Vkj8coiU9cPeCWNdviuZ5g7_OWx"
+	          "-6Ek52IHAHPwcijK0RX93kiuZ7OkUr5mAchdcP9B7HvE8infjDKexpSEADjKmnKUxHmIAcmpAHWE0MmEcDKvc-YnxSTUJgXOTeFGc-hUtlSh71S6cBKAQ9YZbP9F52qNDxijfe7dffUhyznd6cyLC1uSlp1aWHtE5Yrx-2Utf6t1q3ZppctMYhfrMv8t7cwCptljsy_iJlspumaaAMAB8hZrMJA6-1m1J3PbJXt_9ks9wLfKOwzifObqlcqw_56pC44DxACUdHusUo3nJc4Umv-rYAMOom3dYp83aU-YajNaU4DGWSHxpOpe-7WPHxHdYp83aU8xHvBBLeVPUO."
+>>>>>>> b9f98330296742bd5fe7b14808e1716380dac7d7
 }
 
 book_id = 1244667  # 书本的ID 通过书本ID获取章节ID

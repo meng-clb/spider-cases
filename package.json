@@ -1,0 +1,20 @@
+{
+  "name": "spider-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meng-clb/spider-cases.git"
+  },
+  "private": true,
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "jsencrypt": "^3.3.2",
+    "node-jsencrypt": "^1.0.0",
+    "node-rsa": "^1.1.1"
+  }
+}
